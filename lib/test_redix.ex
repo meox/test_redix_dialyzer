@@ -14,8 +14,8 @@ defmodule TestRedix do
       {:ok, _} ->
         :error
 
-      e ->
-        e
+      _ ->
+        :error
     end
   end
 
