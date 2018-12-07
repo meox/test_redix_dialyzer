@@ -18,4 +18,8 @@ defmodule TestRedix do
         e
     end
   end
+
+  def test_it() do
+    update_redis("testit")
+  end
 end
